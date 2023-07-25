@@ -1,10 +1,44 @@
-.carousel__img__font {
-  opacity: 0.9;
+.carousel-item--bg3, .carousel-item--bg2, .carousel-item--bg1 {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute;
 }
 
-.fit-img {
-  height: 50vh;
-  width: 100%;
+.carousel-item {
+  position: relative;
+  background: black;
+  height: 32rem;
+}
+
+.carousel-item--bg1 {
+  background-image: url(/src/images/pic1.jpg);
+}
+
+.carousel-item--bg2 {
+  background-image: url(/src/images/pic2.jpg);
+}
+
+.carousel-item--bg3 {
+  background-image: url(/src/images/pic3.jpg);
+}
+
+.nav__form__name-icon {
+  text-decoration: none;
+  color: whitesmoke;
+  display: flex;
+}
+
+i {
+  margin-right: 5px;
+}
+
+.nav__form__right:hover {
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=main.css.map */

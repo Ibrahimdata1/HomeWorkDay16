@@ -42,60 +42,59 @@
             <form role="search">
               <input class="form-control" type="search" placeholder="Search" aria-label="Search">
             </form>
-            <i class="bi bi-person-circle text-white ms-3 d-none d-lg-block">&nbsp; Account</i>
-            <i class="bi bi-cart text-white ms-3 d-none d-lg-block">&nbsp; Cart</i>
+            <div class="nav__form__right"><a href="#" class="nav__form__name-icon d-none d-lg-flex"><i class="bi bi-person-circle text-white ms-3 d-none d-lg-block"></i>Account</a></div>
+            <div class="nav__form__right"><a href="#" class="nav__form__name-icon d-none d-lg-flex"><i class="bi bi-cart text-white ms-3 d-none d-lg-block"></i>Cart</a></div>
           </div>
         </div>
       </nav>
 
-      <div class="container">
-        <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" data-bs-theme="light">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
-              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item">
-                <img src="src/images/pic5.jpg" class="w-100 object-fit-cover">
-                <div class="container">
-                  <div class="carousel-caption text-start">
-                    <h1>Example headline.</h1>
-                    <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item active">
-                <img src="src/images/pic5.jpg" class="w-100 object-fit-cover">
-                <div class="container">
-                  <div class="carousel-caption">
-                    <h1>Another example headline.</h1>
-                    <p>Some representative placeholder content for the second slide of the carousel.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="src/images/pic5.jpg" class="w-100 object-fit-cover">
-                <div class="container">
-                  <div class="carousel-caption text-end">
-                    <h1>One more for good measure.</h1>
-                    <p>Some representative placeholder content for the third slide of this carousel.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-                  </div>
-                </div>
+      <div id="myCarousel" class="carousel slide mb-6 carousel-fade" data-bs-ride="carousel" data-bs-theme="light">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-item--bg1"></div>
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Z-MAX</h1>
+                <p class="opacity-75">Everything from the lightweight frame to the low-drag design is purpose-built to create the ultimate riding experience.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Shopping</a></p>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
+          <div class="carousel-item">
+              <div class="carousel-item--bg2"></div>
+              <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>BMW-MAX</h1>
+                <p class="opacity-75"> there’s no such thing as good enough. Perfection is the goal, and it’s an endless pursuit of an ever-moving target.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Shopping</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-item--bg3"></div>
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Buffalo-MAX</h1>
+                <p class="opacity-75 ">High-performance handling is accomplished through an adjustable</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Shopping</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
