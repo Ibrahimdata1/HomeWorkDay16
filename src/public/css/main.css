@@ -42,12 +42,12 @@ i {
 }
 
 .navbar-brand {
+  max-height: 45px;
   font-family: "Borel", cursive;
   display: flex;
   align-items: center;
   font-size: 30px;
   font-weight: bold;
-  margin: 10px 0 0 0;
   color: gold;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -56,8 +56,16 @@ i {
   color: goldenrod;
 }
 
+.logo {
+  margin: 0;
+}
+
+.container-fluid {
+  margin: 0 auto;
+}
+
 .navbar {
-  max-height: 50px;
+  padding: 0 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
