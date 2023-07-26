@@ -68,4 +68,21 @@ i {
   padding: 0 10px;
 }
 
+.card--price {
+  font-family: "Abril Fatface", cursive;
+  letter-spacing: 1px;
+}
+
+.card-img-top {
+  height: 240px;
+}
+
+.card {
+  min-height: 29rem;
+}
+
+.card-body {
+  padding-bottom: 0 !important;
+}
+
 /*# sourceMappingURL=main.css.map */
