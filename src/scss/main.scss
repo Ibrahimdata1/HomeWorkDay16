@@ -26,6 +26,10 @@
     @extend %pic;
     background-image: url(/src/images/pic3.jpg);
 }
+.carousel-item--bg4{
+    @extend %pic;
+    background-image: url(/src/images/pic6.jpg);
+}
 
 .nav__form__name-icon {
     text-decoration: none;

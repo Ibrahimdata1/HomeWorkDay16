@@ -1,4 +1,4 @@
-.carousel-item--bg3, .carousel-item--bg2, .carousel-item--bg1 {
+.carousel-item--bg4, .carousel-item--bg3, .carousel-item--bg2, .carousel-item--bg1 {
   left: 0;
   right: 0;
   bottom: 0;
@@ -25,6 +25,10 @@
 
 .carousel-item--bg3 {
   background-image: url(/src/images/pic3.jpg);
+}
+
+.carousel-item--bg4 {
+  background-image: url(/src/images/pic6.jpg);
 }
 
 .nav__form__name-icon {
