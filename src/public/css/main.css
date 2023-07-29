@@ -89,4 +89,15 @@ i {
   padding-bottom: 0 !important;
 }
 
+.fifty {
+  font-size: 60px;
+  font-family: "Abril Fatface", cursive;
+  font-family: "Anton", sans-serif;
+  font-style: oblique;
+}
+
+.off {
+  color: red;
+}
+
 /*# sourceMappingURL=main.css.map */
