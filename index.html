@@ -77,6 +77,7 @@
               type="search"
               placeholder="Search"
               aria-label="Search"
+              id="searchProduct"
             />
           </form>
           <div class="nav__form__right">
@@ -207,171 +208,106 @@
       </button>
     </div>
 
-    <div style="background-color: #eee">
-      <div class="container py-5">
-        <div class="row justify-content-center">
-          <div class="col-md-8 col-lg-6 col-xl-4">
-            <div class="card text-black mb-4">
-              <img
-                src="src/images/pic1.jpg"
-                class="card-img-top object-fit-cover object-fit-lg-fill"
-                alt="motorcycle"
-              />
+    <div id="carouselExampleIndicators" class="carousel carousel-dark slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-white" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="bg-white"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class="bg-white"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="cards-wrapper">
+            <div class="card">
+              <div class="image-wrapper"><img src="src/images/car1.jpg" class="card-img-top" alt="..."></div>
               <div class="card-body">
-                <h5 class="card-title">Z-MAX</h5>
-                <p class="text-muted mb-2">
-                  Everything from the lightweight frame to the low-drag design
-                  is purpose-built to create the ultimate riding experience.
-                </p>
-              </div>
-              <div
-                class="container d-flex justify-content-between align-items-center mb-4"
-              >
-                <span class="h2 card--price">$3900</span
-                ><a href="z-max.html"
-                  ><button class="btn btn-outline-danger">
-                    Add to Cart
-                  </button></a
-                >
+                <h5 class="card-title display-7">Ssbz-645</h5>
+                <p class="card-text">More Details Items in Catageries Click Here...</p>
+                <a href="product.html" class="btn btn-outline-primary mt-2">Buy Now</a>
               </div>
             </div>
-          </div>
-          <div class="col-md-8 col-lg-6 col-xl-4">
-            <div class="card text-black">
-              <img
-                src="src/images/pic7.jpg"
-                class="card-img-top object-fit-cover object-fit-lg-fill"
-                alt="motorcycle"
-              />
+            <div class="card">
+              <div class="image-wrapper"><img src="src/images/car2.jpg" class="card-img-top" alt="..."></div>
               <div class="card-body">
-                <h5 class="card-title">Engine-MAX</h5>
-                <p class="text-muted mb-2">
-                  there’s no such thing as good enough. Vintage, and it’s an
-                  endless pursuit of an ever-moving target.
-                </p>
-              </div>
-              <div
-                class="container d-flex justify-content-between align-items-center mb-4 px-4"
-              >
-                <span class="h2 card--price">$5300</span
-                ><a href="engine.html"
-                  ><button class="btn btn-outline-danger">
-                    Add to Cart
-                  </button></a
-                >
+                <h5 class="card-title display-7">Isx-244</h5>
+                <p class="card-text">More Details Items in Catageries Click Here...</p>
+                <a href="product.html" class="btn btn-outline-primary mt-2">Buy Now</a>
               </div>
             </div>
-          </div>
-          <div class="col-md-8 col-lg-6 col-xl-4">
-            <div class="card text-black">
-              <img
-                src="src/images/pic3.jpg"
-                class="card-img-top object-fit-cover object-fit-lg-fill"
-                alt="motorcycle"
-              />
+            <div class="card">
+              <div class="image-wrapper"><img src="src/images/pic7.jpg" class="card-img-top" alt="..."></div>
               <div class="card-body">
-                <h5 class="card-title">Buffalo-MAX</h5>
-                <p class="text-muted mb-2">
-                  High-performance handling is accomplished through an
-                  adjustable
-                </p>
-              </div>
-
-              <div
-                class="container d-flex justify-content-between align-items-center mb-4 px-4"
-              >
-                <span class="h2 card--price">$3600</span
-                ><a href="buffalo.html"
-                  ><button class="btn btn-outline-danger">
-                    Add to Cart
-                  </button></a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-md-8 col-lg-6 col-xl-4">
-            <div class="card text-black">
-              <span class="bg-dark rounded">
-                <img
-                  src="src/images/pic4.jpg"
-                  class="card-img-top opacity-75 object-fit-cover object-fit-lg-fill"
-                  alt="motorcycle"
-                />
-              </span>
-              <div class="card-body">
-                <h5 class="card-title">SBZ-Vintage</h5>
-                <p class="text-muted mb-2">
-                  there’s no such thing as good enough. Vintage, and it’s an
-                  endless pursuit of an ever-moving target.
-                </p>
-              </div>
-
-              <div
-                class="container d-flex justify-content-between align-items-center mb-4 px-4"
-              >
-                <span class="h2 card--price">$4200</span
-                ><a href="sbz.html"
-                  ><button class="btn btn-outline-danger">
-                    Add to Cart
-                  </button></a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-md-8 col-lg-6 col-xl-4">
-            <div class="card text-black">
-              <img
-                src="src/images/pic6.jpg"
-                class="card-img-top object-fit-cover object-fit-lg-fill"
-                alt="motorcycle"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Tiger-TURBO</h5>
-                <p class="text-muted mb-2">
-                  High-performance handling is accomplished through an
-                  adjustable
-                </p>
-              </div>
-              <div
-                class="container d-flex justify-content-between align-items-center mb-4 px-4"
-              >
-                <span class="h2 card--price">$2900</span
-                ><a href="tiger.html"
-                  ><button class="btn btn-outline-danger">
-                    Add to Cart
-                  </button></a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-md-8 col-lg-6 col-xl-4">
-            <div class="card text-black">
-              <img
-                src="src/images/pic5.jpg"
-                class="card-img-top object-fit-cover object-fit-lg-fill"
-                alt="motorcycle"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Riscoz-JET</h5>
-                <p class="text-muted mb-2">
-                  Everything from the lightweight frame to the low-drag design
-                  is purpose-built to create the ultimate riding experience.
-                </p>
-              </div>
-              <div
-                class="container d-flex justify-content-between align-items-center mb-4 px-4"
-              >
-                <span class="h2 card--price">$5100</span
-                ><a href="Riscoz.html"
-                  ><button class="btn btn-outline-danger">
-                    Add to Cart
-                  </button></a
-                >
+                <h5 class="card-title display-7">Engine-MAX</h5>
+                <p class="card-text">More Details Items in Catageries Click Here...</p>
+                <a href="product.html" class="btn btn-outline-primary mt-2">Buy Now</a>
               </div>
             </div>
           </div>
         </div>
+        <div class="carousel-item">
+          <div class="cards-wrapper">
+            <div class="card">
+              <div class="image-wrapper"><img src="src/images/pic5.jpg" class="card-img-top" alt="..."></div>
+              <div class="card-body">
+                <h5 class="card-title display-7">Riscoz-JET</h5>
+                <p class="card-text">More Details Items in Catageries Click Here...</p>
+                <a href="product.html" class="btn btn-outline-primary mt-2">Buy Now</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="image-wrapper"><img src="src/images/pic4.jpg" class="card-img-top" alt="..."></div>
+              <div class="card-body">
+                <h5 class="card-title display-7">SBZ-Vintage</h5>
+                <p class="card-text">More Details Items in Catageries Click Here...</p>
+                <a href="product.html" class="btn btn-outline-primary mt-2">Buy Now</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="image-wrapper"><img src="src/images/pic6.jpg" class="card-img-top" alt="..."></div>
+              <div class="card-body">
+                <h5 class="card-title display-7">Tiger-TURBO</h5>
+                <p class="card-text">More Details Items in Catageries Click Here...</p>
+                <a href="product.html" class="btn btn-outline-primary mt-2">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="cards-wrapper">
+            <div class="card">
+              <div class="image-wrapper"><img src="src/images/super1.jpg" class="card-img-top" alt="..."></div>
+              <div class="card-body">
+                <h5 class="card-title display-7">Shark-z</h5>
+                <p class="card-text">More Details Items in Catageries Click Here...</p>
+                <a href="product.html" class="btn btn-outline-primary mt-2">Buy Now</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="image-wrapper"><img src="src/images/super2.jpg" class="card-img-top" alt="..."></div>
+              <div class="card-body">
+                <h5 class="card-title display-7">Premium-790z</h5>
+                <p class="card-text">More Details Items in Catageries Click Here...</p>
+                <a href="product.html" class="btn btn-outline-primary mt-2">Buy Now</a>
+              </div>
+            </div>
+            <div class="card">
+                 <div class="image-wrapper"><img src="src/images/super3.jpg" class="card-img-top" alt="..."></div>
+                  <div class="card-body">
+                  <h5 class="card-title display-7">Auto-Engine-236x</h5>
+                    <p class="card-text">More Details Items in Catageries Click Here...</p>
+                  <a href="product.html" class="btn btn-outline-primary mt-2">Buy Now</a>
+                 </div>
+              </div>
+          </div>
+        </div>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
 
     <div class="container">
@@ -417,7 +353,7 @@
               <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                 <label for="newsletter1" class="visually-hidden">Email address</label>
                 <input id="newsletter1" type="text" class="form-control" placeholder="Email address" fdprocessedid="tazfsj">
-                <button class="btn btn-primary" type="button" fdprocessedid="tcwgq5f">Subscribe</button>
+                <button class="btn btn-primary mt-2" type="button" fdprocessedid="tcwgq5f">Subscribe</button>
               </div>
             </form>
           </div>
@@ -433,5 +369,6 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
